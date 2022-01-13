@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+body{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to right, rgba(19, 199, 199, 0.61), rgba(0, 43, 14, 0.616),rgba(0, 14, 0, 0.61)),url(1.jpg) center/cover no-repeat;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.container
+{
+    position: relative;
+    height:800px;
+    left:0px;
+   
+}
+.head
+ {
+    height:300px;
+    width:100%; 
+    font-family: 'Chakra Petch', sans-serif;
+    
+    background-repeat: no-repeat;
+    border-bottom:2px solid #02091f;
+    padding-top: 60px;
+    font-size: 50px;
+    color:rgb(12, 180, 209);   
+}
+.btn{
+    position:center;
+    top:40px;
+    right:20px;  
+}
+button{
+    color:rgb(13, 235, 80);
+    height:50px;
+    width:150px;
+    font-family: 'Chakra Petch', sans-serif;;
+    font-size: 1rem;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(156, 9, 241),rgb(223, 22, 22));
+    border-radius: 10px;  
+}
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;   
+    
+}
+.table
+{
+    width:800px;
+
+}
+table{
+    color:rgb(22, 202, 142);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+    
+}
+table tr :hover{
+    background-color:rgb(206, 187, 187);
+}
+img{
+    clip-path: circle();
+}
+.welcome{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(12, 180, 209) ;
+    padding-top: 120px;
+    font-size: 1.5rem;
+}
